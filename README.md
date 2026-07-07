@@ -9,7 +9,7 @@ class TodoManager:
             self.file.write_text("# TODO List\n\n", encoding="utf-8")
 
     def load(self):
-        lines = self.file.read_text(encoding="utf-88").splitlines()
+        lines = self.file.read_text(encoding="utf-8").splitlines()
 
         tasks = []
 
