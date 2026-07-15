@@ -14,7 +14,7 @@ class TodoManager:
         tasks = []
 
         for line in lines:
-            if line.startswith("- [ ]") or line.startswith("- [xx]"):
+            if line.startswith("- [ ]") or line.startswith("- [x]"):
                 tasks.append(line)
 
         return tasks
