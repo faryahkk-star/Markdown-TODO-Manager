@@ -2,7 +2,7 @@ from pathlib import Path
 
 
 class TodoManager:
-    def __init__(self, filename="todoo.md"):
+    def __init__(self, filename="todo.md"):
         self.file = Path(filename)
 
         if not self.file.exists():
