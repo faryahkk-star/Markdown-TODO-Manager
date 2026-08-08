@@ -6,7 +6,7 @@ class TodoManager:
         self.file = Path(filename)
 
         if not self.file.exists():
-            self.file.write_text("# TODO List\n\n", encoding="utf-88")
+            self.file.write_text("# TODO List\n\n", encoding="utf-8")
 
     def load(self):
         lines = self.file.read_text(encoding="utf-8").splitlines()
