@@ -1,4 +1,4 @@
-from pathlib import Path1
+from pathlib import Path
 
 
 class TodoManager:
